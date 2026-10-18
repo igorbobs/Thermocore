@@ -149,22 +149,43 @@ def main() -> None:
     import matplotlib.pyplot as plt
     from matplotlib.patches import FancyBboxPatch
 
-    # ---- Figura 1: fluxo ----------------------------------------------------------
+    # ---- Figura 1: fluxo (duas linhas, fontes legíveis na largura da página) ---------
     steps = ["Arquivo\nRJPEG (FLIR)", "Extração\nradiométrica\n(flyr)", "Validação e\nmatriz em °C",
-             "Material\n(Otsu +\nerosão)", "Ponto quente\ne referência", "ΔT, η,\nseveridade,\nfaixa e avisos",
+             "Material\n(Otsu + erosão)", "Ponto quente\ne referência", "ΔT, η, severidade,\nfaixa e avisos",
              "Imagem anotada\ne relatório", "Registro de\nrastreabilidade"]
-    fig, ax = plt.subplots(figsize=(11.6, 2.4), dpi=150)
-    ax.set_xlim(0, len(steps) * 1.25); ax.set_ylim(-0.9, 1.1); ax.axis("off")
-    for i, s in enumerate(steps):
-        x = i * 1.25
-        ax.add_patch(FancyBboxPatch((x, 0), 1.0, 1.0, boxstyle="round,pad=0.02", fc="#e8f0fa", ec="#2f5f98", lw=1))
-        ax.text(x + 0.5, 0.5, s, ha="center", va="center", fontsize=7)
-        if i < len(steps) - 1:
-            ax.annotate("", xy=(x + 1.23, 0.5), xytext=(x + 1.02, 0.5), arrowprops=dict(arrowstyle="->", color="#2f5f98"))
-    ax.add_patch(FancyBboxPatch((2.5, -0.75), 1.0, 0.55, boxstyle="round,pad=0.02", fc="white", ec="#888", lw=1, ls="--"))
-    ax.text(3.0, -0.475, "Filtro de mediana\n(opcional)", ha="center", va="center", fontsize=6.5, color="#555")
-    ax.annotate("", xy=(3.75, 0.0), xytext=(3.5, -0.3), arrowprops=dict(arrowstyle="->", color="#888", ls="--"))
-    fig.savefig(OUT / "fig1_fluxo.png", bbox_inches="tight"); plt.close(fig)
+    W_, H_, STEP_X = 1.9, 0.95, 2.35
+    fig, ax = plt.subplots(figsize=(6.6, 3.5), dpi=220)
+    ax.set_xlim(-0.2, 3 * STEP_X + W_ + 0.2); ax.set_ylim(0.15, 3.95); ax.axis("off")
+    ys = (2.05, 0.35)
+    centers = []
+    for i, label in enumerate(steps):
+        row, col = divmod(i, 4)
+        x, y = col * STEP_X, ys[row]
+        ax.add_patch(FancyBboxPatch((x, y), W_, H_, boxstyle="round,pad=0.02,rounding_size=0.08",
+                                    fc="#e8f0fa", ec="#2f5f98", lw=1.1))
+        ax.text(x + 0.14, y + H_ - 0.14, str(i + 1), fontsize=7, color="#2f5f98", weight="bold", va="top")
+        ax.text(x + W_ / 2, y + H_ / 2 - 0.02, label, ha="center", va="center", fontsize=7.6)
+        centers.append((x, y))
+    arrow = dict(arrowstyle="-|>", color="#2f5f98", lw=1.1, mutation_scale=9)
+    for i in range(7):
+        if i == 3:
+            continue
+        (x0, y0), (x1, y1) = centers[i], centers[i + 1]
+        ax.annotate("", xy=(x1 - 0.02, y1 + H_ / 2), xytext=(x0 + W_ + 0.02, y0 + H_ / 2), arrowprops=arrow)
+    # cotovelo da etapa 4 para a etapa 5 (quebra de linha)
+    x4, y4 = centers[3]; x5, y5 = centers[4]
+    ax.plot([x4 + W_ / 2, x4 + W_ / 2, x5 + W_ / 2], [y4 - 0.02, 1.7, 1.7], color="#2f5f98", lw=1.1)
+    ax.annotate("", xy=(x5 + W_ / 2, y5 + H_ + 0.02), xytext=(x5 + W_ / 2, 1.7), arrowprops=arrow)
+    # filtro opcional entre as etapas 3 e 4
+    fw = 2.5
+    fx, fy = (centers[2][0] + W_ + centers[3][0]) / 2 - fw / 2, 3.2
+    ax.add_patch(FancyBboxPatch((fx, fy), fw, 0.7, boxstyle="round,pad=0.02,rounding_size=0.08",
+                                fc="white", ec="#888", lw=1.0, ls="--"))
+    ax.text(fx + fw / 2, fy + 0.35, "Filtro de mediana\n(opcional)", ha="center", va="center", fontsize=6.8, color="#555")
+    dash = dict(arrowstyle="-|>", color="#888", lw=1.0, ls="--", mutation_scale=8)
+    ax.annotate("", xy=(fx + 0.3, fy + 0.0), xytext=(centers[2][0] + W_ / 2, centers[2][1] + H_ + 0.02), arrowprops=dash)
+    ax.annotate("", xy=(centers[3][0] + W_ / 2, centers[3][1] + H_ + 0.02), xytext=(fx + fw - 0.3, fy + 0.0), arrowprops=dash)
+    fig.savefig(OUT / "fig1_fluxo.png", bbox_inches="tight", pad_inches=0.12); plt.close(fig)
 
     # ---- Figura 2: comparação de métodos -----------------------------------------
     rgb = render_thermal_image(c)
