@@ -1,0 +1,345 @@
+{
+  "environment": {
+    "thermocore_version": "0.2.0",
+    "timestamp_utc": "2026-10-18T04:05:49Z",
+    "python_version": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "processor": "Intel64 Family 6 Model 122 Stepping 8, GenuineIntel",
+    "cpu_count_logical": 2,
+    "cpu_count_physical": 2,
+    "total_memory_mb": 3932.2109375
+  },
+  "real_extraction": {
+    "repeats": 20,
+    "total_time_seconds": 4.430187600002682,
+    "time_per_call_seconds": 0.22150938000013412,
+    "rss_before_mb": 49.50390625,
+    "rss_after_mb": 55.0234375,
+    "rss_delta_mb": 5.51953125
+  },
+  "preprocessing_by_resolution": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.00698799999372568,
+      "time_per_call_seconds": 0.0006987999993725679,
+      "rss_before_mb": 55.0625,
+      "rss_after_mb": 55.09765625,
+      "rss_delta_mb": 0.03515625,
+      "resolution": "160x120",
+      "pixel_count": 19200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.018989299998793285,
+      "time_per_call_seconds": 0.0018989299998793286,
+      "rss_before_mb": 55.51953125,
+      "rss_after_mb": 56.4375,
+      "rss_delta_mb": 0.91796875,
+      "resolution": "320x240",
+      "pixel_count": 76800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.10492869999870891,
+      "time_per_call_seconds": 0.010492869999870891,
+      "rss_before_mb": 59.48828125,
+      "rss_after_mb": 59.96875,
+      "rss_delta_mb": 0.48046875,
+      "resolution": "640x480",
+      "pixel_count": 307200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.7609605999969062,
+      "time_per_call_seconds": 0.07609605999969063,
+      "rss_before_mb": 74.0390625,
+      "rss_after_mb": 74.04296875,
+      "rss_delta_mb": 0.00390625,
+      "resolution": "1280x960",
+      "pixel_count": 1228800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 1.875103600003058,
+      "time_per_call_seconds": 0.1875103600003058,
+      "rss_before_mb": 97.48046875,
+      "rss_after_mb": 97.48046875,
+      "rss_delta_mb": 0.0,
+      "resolution": "1920x1440",
+      "pixel_count": 2764800
+    }
+  ],
+  "segmentation_by_resolution": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.02086079999571666,
+      "time_per_call_seconds": 0.002086079999571666,
+      "rss_before_mb": 55.38671875,
+      "rss_after_mb": 55.59375,
+      "rss_delta_mb": 0.20703125,
+      "resolution": "160x120",
+      "pixel_count": 19200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.03811929999938002,
+      "time_per_call_seconds": 0.0038119299999380017,
+      "rss_before_mb": 55.703125,
+      "rss_after_mb": 55.5546875,
+      "rss_delta_mb": -0.1484375,
+      "resolution": "320x240",
+      "pixel_count": 76800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.1723416000022553,
+      "time_per_call_seconds": 0.01723416000022553,
+      "rss_before_mb": 59.078125,
+      "rss_after_mb": 59.79296875,
+      "rss_delta_mb": 0.71484375,
+      "resolution": "640x480",
+      "pixel_count": 307200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.7215603999939049,
+      "time_per_call_seconds": 0.07215603999939049,
+      "rss_before_mb": 73.85546875,
+      "rss_after_mb": 73.85546875,
+      "rss_delta_mb": 0.0,
+      "resolution": "1280x960",
+      "pixel_count": 1228800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 1.6733502999995835,
+      "time_per_call_seconds": 0.16733502999995836,
+      "rss_before_mb": 97.296875,
+      "rss_after_mb": 97.296875,
+      "rss_delta_mb": 0.0,
+      "resolution": "1920x1440",
+      "pixel_count": 2764800
+    }
+  ],
+  "full_pipeline_by_resolution": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.2769996999995783,
+      "time_per_call_seconds": 0.02769996999995783,
+      "rss_before_mb": 55.5703125,
+      "rss_after_mb": 55.6171875,
+      "rss_delta_mb": 0.046875,
+      "resolution": "160x120",
+      "pixel_count": 19200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.11724539999704575,
+      "time_per_call_seconds": 0.011724539999704575,
+      "rss_before_mb": 57.19921875,
+      "rss_after_mb": 56.91015625,
+      "rss_delta_mb": -0.2890625,
+      "resolution": "320x240",
+      "pixel_count": 76800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.5718086000051699,
+      "time_per_call_seconds": 0.05718086000051699,
+      "rss_before_mb": 64.390625,
+      "rss_after_mb": 64.7421875,
+      "rss_delta_mb": 0.3515625,
+      "resolution": "640x480",
+      "pixel_count": 307200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 2.664150399999926,
+      "time_per_call_seconds": 0.2664150399999926,
+      "rss_before_mb": 92.8671875,
+      "rss_after_mb": 92.8671875,
+      "rss_delta_mb": 0.0,
+      "resolution": "1280x960",
+      "pixel_count": 1228800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 6.374499400000786,
+      "time_per_call_seconds": 0.6374499400000786,
+      "rss_before_mb": 139.7421875,
+      "rss_after_mb": 139.7421875,
+      "rss_delta_mb": 0.0,
+      "resolution": "1920x1440",
+      "pixel_count": 2764800
+    }
+  ],
+  "batch_scalability": [
+    {
+      "repeats": 3,
+      "total_time_seconds": 0.16934520000359043,
+      "time_per_call_seconds": 0.05644840000119681,
+      "rss_before_mb": 57.69921875,
+      "rss_after_mb": 57.69921875,
+      "rss_delta_mb": 0.0,
+      "batch_size": 1,
+      "images_per_second": 17.715293967212503
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 0.8800310000005993,
+      "time_per_call_seconds": 0.29334366666686645,
+      "rss_before_mb": 67.08984375,
+      "rss_after_mb": 67.08984375,
+      "rss_delta_mb": 0.0,
+      "batch_size": 5,
+      "images_per_second": 17.044854101718897
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 1.7370794000016758,
+      "time_per_call_seconds": 0.5790264666672252,
+      "rss_before_mb": 78.828125,
+      "rss_after_mb": 78.828125,
+      "rss_delta_mb": 0.0,
+      "batch_size": 10,
+      "images_per_second": 17.27036772180423
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 4.178063100000145,
+      "time_per_call_seconds": 1.3926877000000484,
+      "rss_before_mb": 114.046875,
+      "rss_after_mb": 114.046875,
+      "rss_delta_mb": 0.0,
+      "batch_size": 25,
+      "images_per_second": 17.950901698922976
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 8.780294900003355,
+      "time_per_call_seconds": 2.926764966667785,
+      "rss_before_mb": 172.73828125,
+      "rss_after_mb": 172.73828125,
+      "rss_delta_mb": 0.0,
+      "batch_size": 50,
+      "images_per_second": 17.08370865766054
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 17.73039090000384,
+      "time_per_call_seconds": 5.91013030000128,
+      "rss_before_mb": 183.890625,
+      "rss_after_mb": 242.30859375,
+      "rss_delta_mb": 58.41796875,
+      "batch_size": 100,
+      "images_per_second": 16.920100729416802
+    }
+  ],
+  "current_analysis_by_resolution": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.09139180000056513,
+      "time_per_call_seconds": 0.009139180000056512,
+      "rss_before_mb": 8.4296875,
+      "rss_after_mb": 9.52734375,
+      "rss_delta_mb": 1.09765625,
+      "resolution": "160x120",
+      "pixel_count": 19200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.38440849999460625,
+      "time_per_call_seconds": 0.038440849999460625,
+      "rss_before_mb": 9.66015625,
+      "rss_after_mb": 9.453125,
+      "rss_delta_mb": -0.20703125,
+      "resolution": "320x240",
+      "pixel_count": 76800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 1.5723768000025302,
+      "time_per_call_seconds": 0.157237680000253,
+      "rss_before_mb": 10.640625,
+      "rss_after_mb": 10.671875,
+      "rss_delta_mb": 0.03125,
+      "resolution": "640x480",
+      "pixel_count": 307200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 5.651978199995938,
+      "time_per_call_seconds": 0.5651978199995937,
+      "rss_before_mb": 17.78125,
+      "rss_after_mb": 17.8203125,
+      "rss_delta_mb": 0.0390625,
+      "resolution": "1280x960",
+      "pixel_count": 1228800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 12.458417499998177,
+      "time_per_call_seconds": 1.2458417499998178,
+      "rss_before_mb": 29.54296875,
+      "rss_after_mb": 29.9765625,
+      "rss_delta_mb": 0.43359375,
+      "resolution": "1920x1440",
+      "pixel_count": 2764800
+    }
+  ],
+  "end_to_end_real": {
+    "repeats": 20,
+    "total_time_seconds": 7.087164199998369,
+    "time_per_call_seconds": 0.35435820999991846,
+    "rss_before_mb": 9.0625,
+    "rss_after_mb": 14.69140625,
+    "rss_delta_mb": 5.62890625,
+    "images_per_second": 2.8220031927586215
+  },
+  "current_analysis_real_images": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 1.334806099999696,
+      "time_per_call_seconds": 0.1334806099999696,
+      "rss_before_mb": 20.08203125,
+      "rss_after_mb": 20.72265625,
+      "rss_delta_mb": 0.640625,
+      "image": "IR_2497_t640_sample.jpg"
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 1.2595535000000382,
+      "time_per_call_seconds": 0.12595535000000382,
+      "rss_before_mb": 21.90234375,
+      "rss_after_mb": 20.24609375,
+      "rss_delta_mb": -1.65625,
+      "image": "IR_2501_t640_lines.jpg"
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 1.5404598000022816,
+      "time_per_call_seconds": 0.15404598000022815,
+      "rss_before_mb": 21.17578125,
+      "rss_after_mb": 21.296875,
+      "rss_delta_mb": 0.12109375,
+      "image": "IR_2503_t640_panel.jpg"
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 1.1925972000026377,
+      "time_per_call_seconds": 0.11925972000026377,
+      "rss_before_mb": 21.22265625,
+      "rss_after_mb": 21.37890625,
+      "rss_delta_mb": 0.15625,
+      "image": "IR_2511_t640_switchgear.jpg"
+    }
+  ],
+  "material_mask_noisy": {
+    "repeats": 5,
+    "total_time_seconds": 0.17448899999726564,
+    "time_per_call_seconds": 0.034897799999453125,
+    "rss_before_mb": 19.54296875,
+    "rss_after_mb": 19.95703125,
+    "rss_delta_mb": 0.4140625
+  }
+}

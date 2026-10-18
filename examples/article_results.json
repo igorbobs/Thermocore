@@ -1,0 +1,583 @@
+{
+  "versao_software": "0.2.0",
+  "imagens": {
+    "IR_2497": {
+      "arquivo": "IR_2497_t640_sample.jpg",
+      "ativo": "Transformador",
+      "camera": "FLIR T640",
+      "medicao": {
+        "emissividade": 0.8299999833106995,
+        "distancia_m": 12.0,
+        "t_atmosferica_c": 33.99000000000001,
+        "t_refletida_c": 31.99000000000001,
+        "umidade": 0.5699999928474426
+      },
+      "matriz": {
+        "min_c": 7.903518097522294,
+        "max_c": 59.81129634955454,
+        "legenda_min_c": 13.7,
+        "legenda_max_c": 59.6,
+        "dif_max_vs_legenda_c": 0.21129634955453724,
+        "pixels_abaixo_10c": 14771,
+        "pixels_abaixo_10c_pct": 4.808268229166666
+      },
+      "regioes_acima_da_legenda": {
+        "regioes": 2,
+        "maiores_px": [
+          182,
+          8
+        ],
+        "total_px": 190,
+        "total_pct": 0.06184895833333333
+      },
+      "analise": {
+        "limiar_otsu_c": 30.309023944590898,
+        "separabilidade_otsu": 0.8547160448857443,
+        "material_pct": 29.997721354166668,
+        "material_pct_borda_legada": 29.325520833333336,
+        "t_quente": {
+          "row": 288,
+          "col": 352,
+          "valor_c": 59.81129634955454
+        },
+        "referencia_p10": {
+          "row": 16,
+          "col": 493,
+          "valor_c": 39.75960528265432
+        },
+        "maximo_da_imagem_c": 59.81129634955454,
+        "t0_c": 33.99000000000001,
+        "delta_t_c": 20.05169106690022,
+        "eta_pct": 77.65563275929851,
+        "severidade": "geral",
+        "severidade_por_eta": "geral",
+        "severidade_faixa": [
+          "geral",
+          "grave"
+        ],
+        "severidade_estavel": false,
+        "eta_faixa_pct": [
+          56.71508202043957,
+          89.06943851525298
+        ],
+        "sensibilidade": [
+          {
+            "percentil": 1.0,
+            "t_ref_c": 36.812412673646804,
+            "delta_t_c": 22.998883675907734,
+            "eta_pct": 89.06943851525298,
+            "severidade": "grave"
+          },
+          {
+            "percentil": 5.0,
+            "t_ref_c": 38.593429264484485,
+            "delta_t_c": 21.217867085070054,
+            "eta_pct": 82.17196688281727,
+            "severidade": "grave"
+          },
+          {
+            "percentil": 10.0,
+            "t_ref_c": 39.75960528265432,
+            "delta_t_c": 20.05169106690022,
+            "eta_pct": 77.65563275929851,
+            "severidade": "geral"
+          },
+          {
+            "percentil": 25.0,
+            "t_ref_c": 42.03899572804619,
+            "delta_t_c": 17.77230062150835,
+            "eta_pct": 68.8280726920783,
+            "severidade": "geral"
+          },
+          {
+            "percentil": 50.0,
+            "t_ref_c": 45.16672694616392,
+            "delta_t_c": 14.64456940339062,
+            "eta_pct": 56.71508202043957,
+            "severidade": "geral"
+          }
+        ],
+        "avisos": [
+          "A classe depende da referência escolhida: varia de 'geral' a 'grave' entre os percentis P1–P50 do material (η de 57% a 89%). Confirme a referência com um termografista."
+        ]
+      },
+      "sensibilidade_erosao": [
+        {
+          "iteracoes": 0,
+          "t_quente_c": 59.81129634955454,
+          "eta_pct": 87.47108901107211,
+          "severidade": "grave",
+          "material_pct": 40.572916666666664
+        },
+        {
+          "iteracoes": 2,
+          "t_quente_c": 59.81129634955454,
+          "eta_pct": 79.58607675379838,
+          "severidade": "geral",
+          "material_pct": 34.072265625
+        },
+        {
+          "iteracoes": 4,
+          "t_quente_c": 59.81129634955454,
+          "eta_pct": 77.65563275929851,
+          "severidade": "geral",
+          "material_pct": 29.997721354166668
+        },
+        {
+          "iteracoes": 6,
+          "t_quente_c": 59.81129634955454,
+          "eta_pct": 76.17798619605128,
+          "severidade": "geral",
+          "material_pct": 26.925781250000004
+        },
+        {
+          "iteracoes": 8,
+          "t_quente_c": 59.81129634955454,
+          "eta_pct": 75.23240047126339,
+          "severidade": "geral",
+          "material_pct": 24.255859375
+        }
+      ]
+    },
+    "IR_2501": {
+      "arquivo": "IR_2501_t640_lines.jpg",
+      "ativo": "Linha aérea/isoladores",
+      "camera": "FLIR T640",
+      "medicao": {
+        "emissividade": 0.8299999833106995,
+        "distancia_m": 12.0,
+        "t_atmosferica_c": 33.99000000000001,
+        "t_refletida_c": 31.99000000000001,
+        "umidade": 0.5699999928474426
+      },
+      "matriz": {
+        "min_c": -2.248786819850409,
+        "max_c": 66.0517626373474,
+        "legenda_min_c": -1.5,
+        "legenda_max_c": 48.7,
+        "dif_max_vs_legenda_c": 17.35176263734739,
+        "pixels_abaixo_10c": 234504,
+        "pixels_abaixo_10c_pct": 76.3359375
+      },
+      "regioes_acima_da_legenda": {
+        "regioes": 26,
+        "maiores_px": [
+          234,
+          150,
+          139,
+          86
+        ],
+        "total_px": 872,
+        "total_pct": 0.2838541666666667
+      },
+      "analise": {
+        "limiar_otsu_c": 20.29573048145121,
+        "separabilidade_otsu": 0.9052318032926795,
+        "material_pct": 10.635091145833334,
+        "material_pct_borda_legada": 10.389973958333334,
+        "t_quente": {
+          "row": 250,
+          "col": 184,
+          "valor_c": 49.767625538996754
+        },
+        "referencia_p10": {
+          "row": 6,
+          "col": 177,
+          "valor_c": 36.11651652203847
+        },
+        "maximo_da_imagem_c": 66.0517626373474,
+        "t0_c": 33.99000000000001,
+        "delta_t_c": 13.651109016958287,
+        "eta_pct": 86.52194833257731,
+        "severidade": "grave",
+        "severidade_por_eta": "grave",
+        "severidade_faixa": [
+          "geral",
+          "emergencial"
+        ],
+        "severidade_estavel": false,
+        "eta_faixa_pct": [
+          70.86917832464268,
+          126.76196796727797
+        ],
+        "sensibilidade": [
+          {
+            "percentil": 1.0,
+            "t_ref_c": 29.76759690725663,
+            "delta_t_c": 20.000028631740122,
+            "eta_pct": 126.76196796727797,
+            "severidade": "emergencial"
+          },
+          {
+            "percentil": 5.0,
+            "t_ref_c": 35.37183533623164,
+            "delta_t_c": 14.395790202765113,
+            "eta_pct": 91.24180420674695,
+            "severidade": "grave"
+          },
+          {
+            "percentil": 10.0,
+            "t_ref_c": 36.11651652203847,
+            "delta_t_c": 13.651109016958287,
+            "eta_pct": 86.52194833257731,
+            "severidade": "grave"
+          },
+          {
+            "percentil": 25.0,
+            "t_ref_c": 37.09261938305946,
+            "delta_t_c": 12.675006155937297,
+            "eta_pct": 80.33532120919676,
+            "severidade": "grave"
+          },
+          {
+            "percentil": 50.0,
+            "t_ref_c": 38.586151960370785,
+            "delta_t_c": 11.181473578625969,
+            "eta_pct": 70.86917832464268,
+            "severidade": "geral"
+          }
+        ],
+        "avisos": [
+          "Há pixels mais quentes fora da região de material (máximo da imagem = 66.1 °C, ponto quente do material = 49.8 °C): pode ser reflexo/ruído pontual ou parte do equipamento fora da máscara. Verifique a imagem visível.",
+          "A classe depende da referência escolhida: varia de 'geral' a 'emergencial' entre os percentis P1–P50 do material (η de 71% a 127%). Confirme a referência com um termografista."
+        ]
+      },
+      "sensibilidade_erosao": [
+        {
+          "iteracoes": 0,
+          "t_quente_c": 66.0517626373474,
+          "eta_pct": 116.87631145113791,
+          "severidade": "emergencial",
+          "material_pct": 20.45703125
+        },
+        {
+          "iteracoes": 2,
+          "t_quente_c": 66.0517626373474,
+          "eta_pct": 94.48053989106535,
+          "severidade": "grave",
+          "material_pct": 13.423177083333334
+        },
+        {
+          "iteracoes": 4,
+          "t_quente_c": 49.767625538996754,
+          "eta_pct": 86.52194833257731,
+          "severidade": "grave",
+          "material_pct": 10.635091145833334
+        },
+        {
+          "iteracoes": 6,
+          "t_quente_c": 47.95826098581517,
+          "eta_pct": 83.60755379333045,
+          "severidade": "grave",
+          "material_pct": 8.805338541666668
+        },
+        {
+          "iteracoes": 8,
+          "t_quente_c": 47.40187086901841,
+          "eta_pct": 82.37486568128676,
+          "severidade": "grave",
+          "material_pct": 7.281575520833333
+        }
+      ]
+    },
+    "IR_2503": {
+      "arquivo": "IR_2503_t640_panel.jpg",
+      "ativo": "Painel/quadro",
+      "camera": "FLIR T640",
+      "medicao": {
+        "emissividade": 0.8299999833106995,
+        "distancia_m": 12.0,
+        "t_atmosferica_c": 33.99000000000001,
+        "t_refletida_c": 31.99000000000001,
+        "umidade": 0.5699999928474426
+      },
+      "matriz": {
+        "min_c": 32.72878373302541,
+        "max_c": 36.6203245901807,
+        "legenda_min_c": 33.2,
+        "legenda_max_c": 36.8,
+        "dif_max_vs_legenda_c": -0.1796754098192963,
+        "pixels_abaixo_10c": 0,
+        "pixels_abaixo_10c_pct": 0.0
+      },
+      "regioes_acima_da_legenda": {
+        "regioes": 0,
+        "maiores_px": [],
+        "total_px": 0,
+        "total_pct": 0.0
+      },
+      "analise": {
+        "limiar_otsu_c": 34.43893352376748,
+        "separabilidade_otsu": 0.9343920099568349,
+        "material_pct": 79.24641927083333,
+        "material_pct_borda_legada": 77.0498046875,
+        "t_quente": {
+          "row": 4,
+          "col": 639,
+          "valor_c": 36.6203245901807
+        },
+        "referencia_p10": {
+          "row": 3,
+          "col": 3,
+          "valor_c": 35.49875215714576
+        },
+        "maximo_da_imagem_c": 36.6203245901807,
+        "t0_c": 33.99000000000001,
+        "delta_t_c": 1.1215724330349417,
+        "eta_pct": 42.64007709245856,
+        "severidade": "normal",
+        "severidade_por_eta": "geral",
+        "severidade_faixa": [
+          "normal",
+          "normal"
+        ],
+        "severidade_estavel": true,
+        "eta_faixa_pct": [
+          30.174752876464833,
+          51.72687325232774
+        ],
+        "sensibilidade": [
+          {
+            "percentil": 1.0,
+            "t_ref_c": 35.259739923293125,
+            "delta_t_c": 1.3605846668875756,
+            "eta_pct": 51.72687325232774,
+            "severidade": "normal"
+          },
+          {
+            "percentil": 5.0,
+            "t_ref_c": 35.43904306728416,
+            "delta_t_c": 1.1812815228965405,
+            "eta_pct": 44.91010452878714,
+            "severidade": "normal"
+          },
+          {
+            "percentil": 10.0,
+            "t_ref_c": 35.49875215714576,
+            "delta_t_c": 1.1215724330349417,
+            "eta_pct": 42.64007709245856,
+            "severidade": "normal"
+          },
+          {
+            "percentil": 25.0,
+            "t_ref_c": 35.58826098050656,
+            "delta_t_c": 1.0320636096741396,
+            "eta_pct": 39.23711976563475,
+            "severidade": "normal"
+          },
+          {
+            "percentil": 50.0,
+            "t_ref_c": 35.82663064524479,
+            "delta_t_c": 0.7936939449359102,
+            "eta_pct": 30.174752876464833,
+            "severidade": "normal"
+          }
+        ],
+        "avisos": [
+          "ΔT = 1.1 °C é menor que o mínimo configurado (2.0 °C): classificação suprimida (normal), embora η = 42.6% corresponderia a 'geral'."
+        ]
+      },
+      "sensibilidade_erosao": [
+        {
+          "iteracoes": 0,
+          "t_quente_c": 36.6203245901807,
+          "eta_pct": 43.207479670044755,
+          "severidade": "normal",
+          "material_pct": 80.28059895833334
+        },
+        {
+          "iteracoes": 2,
+          "t_quente_c": 36.6203245901807,
+          "eta_pct": 42.9237696948835,
+          "severidade": "normal",
+          "material_pct": 79.7607421875
+        },
+        {
+          "iteracoes": 4,
+          "t_quente_c": 36.6203245901807,
+          "eta_pct": 42.64007709245856,
+          "severidade": "normal",
+          "material_pct": 79.24641927083333
+        },
+        {
+          "iteracoes": 6,
+          "t_quente_c": 36.6203245901807,
+          "eta_pct": 42.35640185954563,
+          "severidade": "normal",
+          "material_pct": 78.73697916666667
+        },
+        {
+          "iteracoes": 8,
+          "t_quente_c": 36.6203245901807,
+          "eta_pct": 42.35640185954563,
+          "severidade": "normal",
+          "material_pct": 78.2802734375
+        }
+      ]
+    },
+    "IR_2511": {
+      "arquivo": "IR_2511_t640_switchgear.jpg",
+      "ativo": "Switchgear/disjuntor",
+      "camera": "FLIR T640",
+      "medicao": {
+        "emissividade": 0.8299999833106995,
+        "distancia_m": 12.0,
+        "t_atmosferica_c": 33.99000000000001,
+        "t_refletida_c": 31.99000000000001,
+        "umidade": 0.5699999928474426
+      },
+      "matriz": {
+        "min_c": 30.711212723513256,
+        "max_c": 53.2970501892529,
+        "legenda_min_c": 30.9,
+        "legenda_max_c": 46.6,
+        "dif_max_vs_legenda_c": 6.697050189252899,
+        "pixels_abaixo_10c": 0,
+        "pixels_abaixo_10c_pct": 0.0
+      },
+      "regioes_acima_da_legenda": {
+        "regioes": 10,
+        "maiores_px": [
+          450,
+          29,
+          24,
+          10
+        ],
+        "total_px": 534,
+        "total_pct": 0.173828125
+      },
+      "analise": {
+        "limiar_otsu_c": 35.69597763294408,
+        "separabilidade_otsu": 0.7071969951631102,
+        "material_pct": 2.0647786458333335,
+        "material_pct_borda_legada": 2.0647786458333335,
+        "t_quente": {
+          "row": 147,
+          "col": 289,
+          "valor_c": 53.2970501892529
+        },
+        "referencia_p10": {
+          "row": 156,
+          "col": 342,
+          "valor_c": 37.372191837508524
+        },
+        "maximo_da_imagem_c": 53.2970501892529,
+        "t0_c": 33.99000000000001,
+        "delta_t_c": 15.924858351744376,
+        "eta_pct": 82.48208916248022,
+        "severidade": "grave",
+        "severidade_por_eta": "grave",
+        "severidade_faixa": [
+          "geral",
+          "grave"
+        ],
+        "severidade_estavel": false,
+        "eta_faixa_pct": [
+          69.29555175760049,
+          89.75533354091938
+        ],
+        "sensibilidade": [
+          {
+            "percentil": 1.0,
+            "t_ref_c": 35.96794289497626,
+            "delta_t_c": 17.32910729427664,
+            "eta_pct": 89.75533354091938,
+            "severidade": "grave"
+          },
+          {
+            "percentil": 5.0,
+            "t_ref_c": 36.85669818337465,
+            "delta_t_c": 16.440352005878253,
+            "eta_pct": 85.15206540991767,
+            "severidade": "grave"
+          },
+          {
+            "percentil": 10.0,
+            "t_ref_c": 37.372191837508524,
+            "delta_t_c": 15.924858351744376,
+            "eta_pct": 82.48208916248022,
+            "severidade": "grave"
+          },
+          {
+            "percentil": 25.0,
+            "t_ref_c": 38.2582338380563,
+            "delta_t_c": 15.038816351196601,
+            "eta_pct": 77.89287438413474,
+            "severidade": "geral"
+          },
+          {
+            "percentil": 50.0,
+            "t_ref_c": 39.91812323249326,
+            "delta_t_c": 13.378926956759642,
+            "eta_pct": 69.29555175760049,
+            "severidade": "geral"
+          }
+        ],
+        "avisos": [
+          "A classe depende da referência escolhida: varia de 'geral' a 'grave' entre os percentis P1–P50 do material (η de 69% a 90%). Confirme a referência com um termografista."
+        ]
+      },
+      "sensibilidade_erosao": [
+        {
+          "iteracoes": 0,
+          "t_quente_c": 53.2970501892529,
+          "eta_pct": 87.52626057132127,
+          "severidade": "grave",
+          "material_pct": 3.516276041666667
+        },
+        {
+          "iteracoes": 2,
+          "t_quente_c": 53.2970501892529,
+          "eta_pct": 84.27355764262539,
+          "severidade": "grave",
+          "material_pct": 2.5631510416666665
+        },
+        {
+          "iteracoes": 4,
+          "t_quente_c": 53.2970501892529,
+          "eta_pct": 82.48208916248022,
+          "severidade": "grave",
+          "material_pct": 2.0647786458333335
+        },
+        {
+          "iteracoes": 6,
+          "t_quente_c": 53.2970501892529,
+          "eta_pct": 80.77153097872984,
+          "severidade": "grave",
+          "material_pct": 1.7535807291666667
+        },
+        {
+          "iteracoes": 8,
+          "t_quente_c": 53.2970501892529,
+          "eta_pct": 79.74737687411779,
+          "severidade": "geral",
+          "material_pct": 1.4921875
+        }
+      ]
+    }
+  },
+  "metodos_transformador": {
+    "quadro_inteiro": {
+      "t_quente_c": 59.81129634955454,
+      "t_frio_c": 7.903518097522294,
+      "delta_t_c": 51.907778252032244,
+      "eta_com_t0_20c_pct": 130.38454662783937,
+      "eta_com_t0_arquivo_pct": 201.02700325085635
+    },
+    "metodo_A": {
+      "fundo_pct": 14.004557291666666,
+      "t_frio_no_material_c": 8.833692974964777,
+      "posicao": [
+        313,
+        619
+      ]
+    },
+    "metodo_B": {
+      "limiar_otsu_c": 30.309023944590898,
+      "material_sem_erosao_pct": 40.865885416666664,
+      "material_final_pct": 29.997721354166668,
+      "minimo_bruto_c": 30.353381975011132,
+      "referencia_p10_c": 39.75960528265432
+    }
+  }
+}

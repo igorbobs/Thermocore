@@ -1,0 +1,131 @@
+{
+  "_nota": "Resultado de referência enviado por Igor Pantoja (execução em 2026-09-27, máquina dele). Campos de RSS omitidos por serem grosseiros; ver docstring de run_benchmarks.py.",
+  "environment": {
+    "thermocore_version": "0.1.0",
+    "timestamp_utc": "2026-09-27T17:20:22Z",
+    "python_version": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+    "cpu_count_logical": 8,
+    "cpu_count_physical": 4,
+    "total_memory_mb": 8062.9375
+  },
+  "real_extraction": {
+    "repeats": 20,
+    "time_per_call_seconds": 0.13030049000008148,
+    "rss_delta_mb": 5.140625
+  },
+  "preprocessing_by_resolution": [
+    {
+      "resolution": "160x120",
+      "pixel_count": 19200,
+      "time_per_call_seconds": 0.0003668600009405054
+    },
+    {
+      "resolution": "320x240",
+      "pixel_count": 76800,
+      "time_per_call_seconds": 0.0011268999995081685
+    },
+    {
+      "resolution": "640x480",
+      "pixel_count": 307200,
+      "time_per_call_seconds": 0.006761749999714084
+    },
+    {
+      "resolution": "1280x960",
+      "pixel_count": 1228800,
+      "time_per_call_seconds": 0.02714138999872375
+    },
+    {
+      "resolution": "1920x1440",
+      "pixel_count": 2764800,
+      "time_per_call_seconds": 0.06706915000104345
+    }
+  ],
+  "segmentation_by_resolution": [
+    {
+      "resolution": "160x120",
+      "pixel_count": 19200,
+      "time_per_call_seconds": 0.0008854999992763624
+    },
+    {
+      "resolution": "320x240",
+      "pixel_count": 76800,
+      "time_per_call_seconds": 0.0017712200002279132
+    },
+    {
+      "resolution": "640x480",
+      "pixel_count": 307200,
+      "time_per_call_seconds": 0.008542029999080113
+    },
+    {
+      "resolution": "1280x960",
+      "pixel_count": 1228800,
+      "time_per_call_seconds": 0.04629105000058189
+    },
+    {
+      "resolution": "1920x1440",
+      "pixel_count": 2764800,
+      "time_per_call_seconds": 0.08543101999966893
+    }
+  ],
+  "full_pipeline_by_resolution": [
+    {
+      "resolution": "160x120",
+      "pixel_count": 19200,
+      "time_per_call_seconds": 0.0031644399990909734
+    },
+    {
+      "resolution": "320x240",
+      "pixel_count": 76800,
+      "time_per_call_seconds": 0.008926369999244343
+    },
+    {
+      "resolution": "640x480",
+      "pixel_count": 307200,
+      "time_per_call_seconds": 0.028966150000633205
+    },
+    {
+      "resolution": "1280x960",
+      "pixel_count": 1228800,
+      "time_per_call_seconds": 0.12580173000023934
+    },
+    {
+      "resolution": "1920x1440",
+      "pixel_count": 2764800,
+      "time_per_call_seconds": 0.2868667299990193
+    }
+  ],
+  "batch_scalability": [
+    {
+      "batch_size": 1,
+      "images_per_second": 26.758764388712102,
+      "rss_delta_mb": 0.0
+    },
+    {
+      "batch_size": 5,
+      "images_per_second": 30.53492299533385,
+      "rss_delta_mb": 0.0
+    },
+    {
+      "batch_size": 10,
+      "images_per_second": 32.43950950616719,
+      "rss_delta_mb": 0.0
+    },
+    {
+      "batch_size": 25,
+      "images_per_second": 32.881068124427216,
+      "rss_delta_mb": 0.0
+    },
+    {
+      "batch_size": 50,
+      "images_per_second": 32.932147328122845,
+      "rss_delta_mb": 0.0
+    },
+    {
+      "batch_size": 100,
+      "images_per_second": 33.383055911389924,
+      "rss_delta_mb": 0.0
+    }
+  ]
+}

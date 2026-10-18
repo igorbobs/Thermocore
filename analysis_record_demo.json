@@ -1,0 +1,18 @@
+{
+  "source_path": "synthetic-hotspot",
+  "is_synthetic": true,
+  "analyzed_at": "2026-10-16T10:26:58.752964+00:00",
+  "method": "gaussian_denoise+threshold_segmentation+eta_DLT664",
+  "parameters": {
+    "gaussian_sigma": 1.0,
+    "threshold_celsius": 60.0,
+    "min_pixel_count": 4,
+    "ambient_celsius": 24.0
+  },
+  "results": {
+    "t_max_celsius": 93.23490365095819,
+    "eta_pct": 97.83346271764583,
+    "severity": "emergencial"
+  },
+  "software_version": "0.2.0"
+}

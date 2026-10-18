@@ -1,0 +1,62 @@
+{
+  "arquivo": "IR_2497_t640_sample.jpg",
+  "camera": "FLIR T640",
+  "T0_arquivo_c": 33.99000000000001,
+  "metodo_quadro_inteiro": {
+    "t_quente": 59.81129634955454,
+    "t_frio": 7.903518097522294,
+    "delta_t": 51.907778252032244
+  },
+  "metodo_A_percentil_conexo": {
+    "fundo_pct": 14.004557291666666,
+    "t_frio_no_material": 8.833692974964777,
+    "posicao": [
+      313,
+      619
+    ]
+  },
+  "metodo_B_otsu": {
+    "limiar_otsu_c": 30.309023944590898,
+    "material_sem_erosao_pct": 40.865885416666664,
+    "material_final_pct": 29.997721354166668,
+    "minimo_bruto_no_material_c": 30.353381975011132
+  },
+  "t_quente_material_c": 59.81129634955454,
+  "sensibilidade_referencia": [
+    {
+      "percentil": 1,
+      "t_ref_c": 36.812412673646804,
+      "delta_t_c": 22.998883675907734,
+      "eta_pct": 89.06943851525298,
+      "severidade": "grave"
+    },
+    {
+      "percentil": 5,
+      "t_ref_c": 38.593429264484485,
+      "delta_t_c": 21.217867085070054,
+      "eta_pct": 82.17196688281727,
+      "severidade": "grave"
+    },
+    {
+      "percentil": 10,
+      "t_ref_c": 39.75960528265432,
+      "delta_t_c": 20.05169106690022,
+      "eta_pct": 77.65563275929851,
+      "severidade": "geral"
+    },
+    {
+      "percentil": 25,
+      "t_ref_c": 42.03899572804619,
+      "delta_t_c": 17.77230062150835,
+      "eta_pct": 68.8280726920783,
+      "severidade": "geral"
+    },
+    {
+      "percentil": 50,
+      "t_ref_c": 45.16672694616392,
+      "delta_t_c": 14.64456940339062,
+      "eta_pct": 56.71508202043957,
+      "severidade": "geral"
+    }
+  ]
+}

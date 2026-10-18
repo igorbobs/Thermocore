@@ -1,0 +1,299 @@
+{
+  "environment": {
+    "thermocore_version": "0.1.0",
+    "timestamp_utc": "2026-10-11T04:15:16Z",
+    "python_version": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+    "cpu_count_logical": 8,
+    "cpu_count_physical": 4,
+    "total_memory_mb": 8062.9375
+  },
+  "real_extraction": {
+    "repeats": 20,
+    "total_time_seconds": 3.012040199995681,
+    "time_per_call_seconds": 0.15060200999978407,
+    "rss_before_mb": 58.58984375,
+    "rss_after_mb": 63.0703125,
+    "rss_delta_mb": 4.48046875
+  },
+  "preprocessing_by_resolution": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.004458700001123361,
+      "time_per_call_seconds": 0.00044587000011233615,
+      "rss_before_mb": 63.3515625,
+      "rss_after_mb": 63.37890625,
+      "rss_delta_mb": 0.02734375,
+      "resolution": "160x120",
+      "pixel_count": 19200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.01313809999555815,
+      "time_per_call_seconds": 0.001313809999555815,
+      "rss_before_mb": 63.58984375,
+      "rss_after_mb": 64.5078125,
+      "rss_delta_mb": 0.91796875,
+      "resolution": "320x240",
+      "pixel_count": 76800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.0739675000004354,
+      "time_per_call_seconds": 0.0073967500000435395,
+      "rss_before_mb": 67.5625,
+      "rss_after_mb": 68.04296875,
+      "rss_delta_mb": 0.48046875,
+      "resolution": "640x480",
+      "pixel_count": 307200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.292015300001367,
+      "time_per_call_seconds": 0.0292015300001367,
+      "rss_before_mb": 82.1796875,
+      "rss_after_mb": 82.18359375,
+      "rss_delta_mb": 0.00390625,
+      "resolution": "1280x960",
+      "pixel_count": 1228800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.7752614000055473,
+      "time_per_call_seconds": 0.07752614000055473,
+      "rss_before_mb": 105.625,
+      "rss_after_mb": 105.625,
+      "rss_delta_mb": 0.0,
+      "resolution": "1920x1440",
+      "pixel_count": 2764800
+    }
+  ],
+  "segmentation_by_resolution": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.009204499998304527,
+      "time_per_call_seconds": 0.0009204499998304527,
+      "rss_before_mb": 63.87109375,
+      "rss_after_mb": 64.28515625,
+      "rss_delta_mb": 0.4140625,
+      "resolution": "160x120",
+      "pixel_count": 19200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.021654900003341027,
+      "time_per_call_seconds": 0.0021654900003341025,
+      "rss_before_mb": 63.83203125,
+      "rss_after_mb": 64.85546875,
+      "rss_delta_mb": 1.0234375,
+      "resolution": "320x240",
+      "pixel_count": 76800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.09190249999664957,
+      "time_per_call_seconds": 0.009190249999664956,
+      "rss_before_mb": 67.79296875,
+      "rss_after_mb": 68.50390625,
+      "rss_delta_mb": 0.7109375,
+      "resolution": "640x480",
+      "pixel_count": 307200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.3962893999996595,
+      "time_per_call_seconds": 0.03962893999996595,
+      "rss_before_mb": 82.57421875,
+      "rss_after_mb": 82.6015625,
+      "rss_delta_mb": 0.02734375,
+      "resolution": "1280x960",
+      "pixel_count": 1228800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.8916710999983479,
+      "time_per_call_seconds": 0.08916710999983479,
+      "rss_before_mb": 106.0390625,
+      "rss_after_mb": 106.06640625,
+      "rss_delta_mb": 0.02734375,
+      "resolution": "1920x1440",
+      "pixel_count": 2764800
+    }
+  ],
+  "full_pipeline_by_resolution": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.02833259999897564,
+      "time_per_call_seconds": 0.002833259999897564,
+      "rss_before_mb": 64.25,
+      "rss_after_mb": 64.40625,
+      "rss_delta_mb": 0.15625,
+      "resolution": "160x120",
+      "pixel_count": 19200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.07931320000352571,
+      "time_per_call_seconds": 0.00793132000035257,
+      "rss_before_mb": 65.17578125,
+      "rss_after_mb": 65.0,
+      "rss_delta_mb": -0.17578125,
+      "resolution": "320x240",
+      "pixel_count": 76800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.34227699999610195,
+      "time_per_call_seconds": 0.034227699999610194,
+      "rss_before_mb": 71.921875,
+      "rss_after_mb": 73.09765625,
+      "rss_delta_mb": 1.17578125,
+      "resolution": "640x480",
+      "pixel_count": 307200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 1.231936099997256,
+      "time_per_call_seconds": 0.12319360999972559,
+      "rss_before_mb": 101.22265625,
+      "rss_after_mb": 101.25390625,
+      "rss_delta_mb": 0.03125,
+      "resolution": "1280x960",
+      "pixel_count": 1228800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 2.704647799997474,
+      "time_per_call_seconds": 0.2704647799997474,
+      "rss_before_mb": 148.12890625,
+      "rss_after_mb": 148.1328125,
+      "rss_delta_mb": 0.00390625,
+      "resolution": "1920x1440",
+      "pixel_count": 2764800
+    }
+  ],
+  "batch_scalability": [
+    {
+      "repeats": 3,
+      "total_time_seconds": 0.08099480000237236,
+      "time_per_call_seconds": 0.026998266667457454,
+      "rss_before_mb": 66.08984375,
+      "rss_after_mb": 66.08984375,
+      "rss_delta_mb": 0.0,
+      "batch_size": 1,
+      "images_per_second": 37.039414874931836
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 0.3923192999936873,
+      "time_per_call_seconds": 0.13077309999789577,
+      "rss_before_mb": 75.48046875,
+      "rss_after_mb": 75.53125,
+      "rss_delta_mb": 0.05078125,
+      "batch_size": 5,
+      "images_per_second": 38.234162836856
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 0.7873407000006409,
+      "time_per_call_seconds": 0.26244690000021365,
+      "rss_before_mb": 87.26953125,
+      "rss_after_mb": 87.26953125,
+      "rss_delta_mb": 0.0,
+      "batch_size": 10,
+      "images_per_second": 38.10294577680994
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 2.3168224999972153,
+      "time_per_call_seconds": 0.7722741666657384,
+      "rss_before_mb": 122.484375,
+      "rss_after_mb": 122.484375,
+      "rss_delta_mb": 0.0,
+      "batch_size": 25,
+      "images_per_second": 32.37192318362332
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 4.103135700002895,
+      "time_per_call_seconds": 1.367711900000965,
+      "rss_before_mb": 181.17578125,
+      "rss_after_mb": 181.17578125,
+      "rss_delta_mb": 0.0,
+      "batch_size": 50,
+      "images_per_second": 36.557406570758594
+    },
+    {
+      "repeats": 3,
+      "total_time_seconds": 9.293041999997513,
+      "time_per_call_seconds": 3.0976806666658376,
+      "rss_before_mb": 298.55859375,
+      "rss_after_mb": 298.55859375,
+      "rss_delta_mb": 0.0,
+      "batch_size": 100,
+      "images_per_second": 32.28221716850955
+    }
+  ],
+  "current_analysis_by_resolution": [
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.02117789999465458,
+      "time_per_call_seconds": 0.002117789999465458,
+      "rss_before_mb": 63.9375,
+      "rss_after_mb": 64.03125,
+      "rss_delta_mb": 0.09375,
+      "resolution": "160x120",
+      "pixel_count": 19200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.06973149999976158,
+      "time_per_call_seconds": 0.006973149999976158,
+      "rss_before_mb": 64.13671875,
+      "rss_after_mb": 63.30078125,
+      "rss_delta_mb": -0.8359375,
+      "resolution": "320x240",
+      "pixel_count": 76800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.2703133999966667,
+      "time_per_call_seconds": 0.02703133999966667,
+      "rss_before_mb": 66.5859375,
+      "rss_after_mb": 65.03125,
+      "rss_delta_mb": -1.5546875,
+      "resolution": "640x480",
+      "pixel_count": 307200
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 0.9720708000022569,
+      "time_per_call_seconds": 0.09720708000022568,
+      "rss_before_mb": 72.1328125,
+      "rss_after_mb": 72.390625,
+      "rss_delta_mb": 0.2578125,
+      "resolution": "1280x960",
+      "pixel_count": 1228800
+    },
+    {
+      "repeats": 10,
+      "total_time_seconds": 2.018526699997892,
+      "time_per_call_seconds": 0.2018526699997892,
+      "rss_before_mb": 84.125,
+      "rss_after_mb": 84.921875,
+      "rss_delta_mb": 0.796875,
+      "resolution": "1920x1440",
+      "pixel_count": 2764800
+    }
+  ],
+  "end_to_end_real": {
+    "repeats": 20,
+    "total_time_seconds": 3.5658336999986204,
+    "time_per_call_seconds": 0.17829168499993103,
+    "rss_before_mb": 63.82421875,
+    "rss_after_mb": 62.6484375,
+    "rss_delta_mb": -1.17578125,
+    "images_per_second": 5.608786523052866
+  }
+}
